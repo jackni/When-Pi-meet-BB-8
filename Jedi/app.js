@@ -3,7 +3,7 @@ var Cylon = require('cylon');
 var sphero = require('sphero');
 
 var bb8 = sphero('f42cd0c87bac');
-Cylon.api('http',{sswl:false});
+Cylon.api('http',{ssl:false});
 
 Cylon.robot({
     connections: {
