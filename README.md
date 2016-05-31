@@ -33,6 +33,13 @@ Create project folder and install the rest node modules
 npm install cylon cylon-api-http leapjs shpero
 so the rest is get my app.js in.
 
+var bb8 = sphero('f42cd0c87bac');
+the param is my bb8's mac address. 
+it's easy to get that via bluetooth scan.
 
-
+Run the app
+$sudo node app.js
+then in browser http://127.0.0.1:3000 
+so a swagger like web api on Raspberry pi for robot :)
+enjoy.
 
