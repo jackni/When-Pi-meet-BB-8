@@ -4,29 +4,17 @@ Project Setup.
 
 Requirements:
 
-1. node.js 
-
-2. Raspberry Pi 3
-
-3. network (I believe if you don't have that, you shouldn't be doing this)
-
-4. a star war bb8 unit (AUD $250 ish)
-
+>1. node.js 
+>2. Raspberry Pi 3
+>3. network (I believe if you don't have that, you shouldn't be doing this)
+>4. a star war bb8 unit (AUD $250 ish)
 
 Tech stack I used here:
-
-Cylon.js 
-
-Sphero SDK
-
-Raspberry Pi raspbian-jessie latest image(builtin bluetooth support so I don't need to config blueman myself)
-
-Node.js version
-$node -v
-V4.4.4
-
-$npm -v
-2.15.1
+>Cylon.js 
+>Sphero SDK
+>Raspberry Pi raspbian-jessie latest image(builtin bluetooth support so I don't need to config blueman myself)
+>Node.js version V4.4.4
+>npm version 2.15.1
 
 Install noble 
 Strongly suggest to run those command first
