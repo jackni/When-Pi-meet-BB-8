@@ -24,24 +24,30 @@ $sudo apt-get dist-upgrade
 
 ##Make a coffee and comeback again
 ```bash
-$sudo npm install -g noble (I install globally so I don't need to run sudo for the ble package installation)
+$sudo npm install -g noble 
 ```
+(I install globally so I don't need to run sudo for the ble package installation)
 
 Create project folder and install the rest node modules
+
+```bash
 npm install cylon cylon-api-http leapjs shpero
+```
 so the rest is get my app.js in.
 
+<p>
+<code>
 var bb8 = sphero('f42cd0c87bac');
-
+</code>
+</p>
 the param is my bb8's mac address. 
-
 it's easy to get that via bluetooth scan.
-
 Run the app
+```bash
 $sudo node app.js
+```
 
 then in browser 
-
 http://127.0.0.1:3000 
 
 so a swagger like web api on Raspberry pi for robot :) enjoy.
